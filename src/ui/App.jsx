@@ -1,5 +1,5 @@
 import React from 'react'
-import Blocked from '../blocked/Blocked'
+import Blocked from './blocked/Blocked'
 
 function App() {
   return (

@@ -1,22 +1,3 @@
-// const blockedUrls = [
-//     '*://*.facebook.com/*',
-//     '*://*.instagram.com/*'
-// ];
-
-// function setBlockedUrls(urls) {
-//     return new Promise((resolve, reject) => {
-//         chrome.storage.local.set({ blockedUrls: urls }, function() {
-//             if (chrome.runtime.lastError) {
-//                 reject(chrome.runtime.lastError);
-//             } else {
-//                 console.log("Blocked URLs set in storage");
-//                 resolve();
-//             }
-//         });
-//     });
-// }
-
-
 
 chrome.runtime.onInstalled.addListener(() => {
     console.log("Extension installed and working");

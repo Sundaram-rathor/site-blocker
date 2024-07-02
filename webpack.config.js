@@ -9,8 +9,8 @@ module.exports = {
     entry: {
        popup: path.resolve('./src/index.js'),
        background: path.resolve('./src/background/background.js'),
-       blocked: path.resolve('./src/blocked/blocked.jsx'),
-       options: path.resolve('./src/blocked/blocked.jsx')
+       blocked: path.resolve('./src/ui/blocked/blocked.jsx'),
+       options: path.resolve('./src/ui/blocked/blocked.jsx')
     }, 
     module: {
         rules: [

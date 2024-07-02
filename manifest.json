@@ -5,9 +5,9 @@
     "description":"web site blocker",
     "version":"1.0.0",
     "icons":{
-        "16":"red.png",
-        "48":"red.png",
-        "128":"red.png"
+        "16":"./images/red.png",
+        "48":"./images/red.png",
+        "128":"./images/red.png"
     },
    "action":{
     "default_popup":"./dist/index.html"
