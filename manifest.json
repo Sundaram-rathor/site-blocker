@@ -1,0 +1,37 @@
+{
+
+    "manifest_version":3,
+    "name":"My Extension",
+    "description":"web site blocker",
+    "version":"1.0.0",
+    "icons":{
+        "16":"red.png",
+        "48":"red.png",
+        "128":"red.png"
+    },
+   "action":{
+    "default_popup":"./dist/index.html"
+   },
+    "background": {
+    "service_worker": "src/background/background.js"
+     },
+     "permissions": [
+                      "storage",
+                      "webRequest",
+                      "webRequestBlocking",
+                      "declarativeNetRequest",
+                      "declarativeNetRequestFeedback",
+                      "webNavigation",
+                      "activeTab"
+                     
+                    ],
+
+    
+    "host_permissions": [
+    "<all_urls>"
+     ],
+    
+  
+  "options_page": "./dist/index.html"
+      
+}
